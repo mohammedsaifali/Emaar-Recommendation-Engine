@@ -3,6 +3,8 @@ import numpy as np
 import pandas as pd
 from lightfm import LightFM
 import joblib
+from lightfm.data import Dataset
+from scipy.sparse import coo_matrix
 
 # Load pre-trained model
 model = joblib.load("lightfm_model.pkl")
