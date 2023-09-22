@@ -3,3 +3,4 @@ lightfm
 pandas
 joblib
 numpy
+openpyxl
